@@ -1,0 +1,46 @@
+# ---- ENTORNO VIRTUAL ----
+venv/
+.env/
+env/
+
+# ---- PYTHON ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- STREAMLIT ----
+.streamlit/
+.streamlit_cache/
+.streamlit/cache/
+.streamlit/config.toml
+
+# ---- ARCHIVOS TEMPORALES ----
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# ---- VISUAL STUDIO CODE ----
+.vscode/
+.history/
+
+# ---- ARCHIVOS DEL SISTEMA ----
+Thumbs.db
+desktop.ini
+
+# ---- PYTHON PACKAGES CREADOS ----
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ---- CONFIG DE WINDOWS POWERSHELL ----
+*.ps1
+
+# ---- ARCHIVOS DE TEST ----
+.coverage
+pytest_cache/
+
+# ---- ARCHIVOS DE EJECUCIÓN ----
+nohup.out
